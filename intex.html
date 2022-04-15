@@ -1,25 +1,388 @@
-<h1>Name</h1>
-<p id="name"></p>
-<p id="lastName"></p>
+<html>
+<!--    add bootstap-->
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-<button id="send_email">Send email</button>
+<!-- create a form with first name and last name field with bootstrap-->
+
+
+<body>
+<div class="container">
+
+<!--    headline -->
+    <label class="fs-3 padding-1 fw-bold mb-3">AC Repair service booking form</label>
+
+    <form>
+<!--        create check list of
+-> title: Pressurised Hot Water Deep Clean and Rinse
+Front Evaporator Coils
+Behind Evaporator Coils
+Drain Pan Channel
+Barrell Fan
+Fan Cavity
+-> title: 130 psi Jet Steam (170 °C) Sanitisation
+Front Evaporator Coils
+Behind Evaporator Coils
+Drain Pan Channel
+Barrell Fan
+Fan Cavity
+-> title: Deep Clean and Pressurised Rinse.
+Outer Housing Covers
+Filters
+Swing/s
+Evaporator Coils Front and Back
+Drain Pan Channel
+Drainpipe
+Barrell Fan
+Fan Cavity-->
+        <div class="form-group">
+<!--            title -->
+            <label class="fs-5 mb-2 mt-2 fw-bolder">Pressurised Hot Water Deep Clean and Rinse.</label>
+
+<!--            Front Evaporator Coils-->
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="I_front_evaporator_coils">
+                <label class="form-check-label" for="I_front_evaporator_coils">
+                    Front Evaporator Coils
+                </label>
+            </div>
+
+<!--            Behind Evaporator Coils-->
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="I_behind_evaporator_coils">
+                <label class="form-check-label" for="I_behind_evaporator_coils">
+                    Behind Evaporator Coils
+                </label>
+            </div>
+
+<!--            Drain Pan Channel-->
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="I_drain_pan_channel">
+                <label class="form-check-label" for="I_drain_pan_channel">
+                    Drain Pan Channel
+                </label>
+            </div>
+
+<!--            Barrell Fan-->
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="I_barrell_fan">
+                <label class="form-check-label" for="I_barrell_fan">
+                    Barrell Fan
+                </label>
+            </div>
+
+<!--            Fan Cavity-->
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="I_fan_cavity">
+                <label class="form-check-label" for="I_fan_cavity">
+                    Fan Cavity
+                </label>
+            </div>
+
+<!--            title -->
+            <label class="fs-5 mb-2 mt-2 fw-bolder">130 psi Jet Steam (170 °C) Sanitisation.</label>
+
+<!--            Front Evaporator Coils-->
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="II_front_evaporator_coils">
+                <label class="form-check-label" for="II_front_evaporator_coils">
+                    Front Evaporator Coils
+                </label>
+            </div>
+
+<!--            Behind Evaporator Coils-->
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="II_behind_evaporator_coils">
+                <label class="form-check-label" for="II_behind_evaporator_coils">
+                    Behind Evaporator Coils
+                </label>
+            </div>
+
+<!--            Drain Pan Channel-->
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="II_drain_pan_channel">
+                <label class="form-check-label" for="II_drain_pan_channel">
+                    Drain Pan Channel
+                </label>
+            </div>
+
+<!--            Barrell Fan-->
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="II_barrell_fan">
+                <label class="form-check-label" for="II_barrell_fan">
+                    Barrell Fan
+                </label>
+            </div>
+
+<!--            Fan Cavity-->
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="II_fan_cavity">
+                <label class="form-check-label" for="II_fan_cavity">
+                    Fan Cavity
+                </label>
+            </div>
+
+            <!-- title: Deep Clean and Pressurised Rinse.
+            Outer Housing Covers
+            Filters
+            Swing/s
+            Evaporator Coils Front and Back
+            Drain Pan Channel
+            Drainpipe
+            Barrell Fan
+            Fan Cavity-->
+            <label class="fs-5 mb-2 mt-2 fw-bolder">Deep Clean and Pressurised Rinse.</label>
+
+            <!-- Outer Housing Covers-->
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="III_outer_housing_covers">
+                <label class="form-check-label" for="III_outer_housing_covers">
+                    Outer Housing Covers
+                </label>
+            </div>
+
+            <!-- Filters-->
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="III_filters">
+                <label class="form-check-label" for="III_filters">
+                    Filters
+                </label>
+            </div>
+
+            <!-- Swing/s-->
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="III_swing_s">
+                <label class="form-check-label" for="III_swing_s">
+                    Swing/s
+                </label>
+
+            </div>
+
+            <!-- Evaporator Coils Front and Back-->
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="III_evaporator_coils_front_and_back">
+                <label class="form-check-label" for="III_evaporator_coils_front_and_back">
+                    Evaporator Coils Front and Back
+                </label>
+
+            </div>
+
+            <!-- Drain Pan Channel-->
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="III_drain_pan_channel">
+                <label class="form-check-label" for="III_drain_pan_channel">
+                    Drain Pan Channel
+                </label>
+
+            </div>
+
+            <!-- Drainpipe-->
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="III_drainpipe">
+                <label class="form-check-label" for="III_drainpipe">
+                    Drainpipe
+                </label>
+
+            </div>
+
+            <!-- Barrell Fan-->
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="III_barrell_fan">
+                <label class="form-check-label" for="III_barrell_fan">
+                    Barrell Fan
+                </label>
+
+            </div>
+
+            <!-- Fan Cavity-->
+
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="III_fan_cavity">
+                <label class="form-check-label" for="III_fan_cavity">
+                    Fan Cavity
+                </label>
+            </div>
+        </div>
+
+<!--        date-->
+        <div class="form-group mt-3 mb-3">
+            <label class="fw-bold fs-5" for="date">Date</label>
+            <input type="date" class="form-control" id="date" name="date" placeholder="Date">
+        </div>
+
+<!--        time-->
+        <div class="form-group mt-3 mb-3">
+            <label class="fw-bold fs-5" for="time">Time</label>
+            <input type="time" class="form-control" id="time" name="time" placeholder="Time">
+        </div>
+
+<!--        address textarea-->
+        <div class="form-group mt-3 mb-3">
+            <label class="fw-bold fs-5" for="address">Address</label>
+            <textarea class="form-control" id="address" name="address" rows="3"></textarea>
+        </div>
+
+
+        <button type="submit" class="btn btn-primary" id="send_email">Submit</button>
+    </form>
+</div>
+</body>
+
+
+
+
+</html>
+
+<!--<button id="send_email">Send email</button>-->
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function () {
         // read query params
         var params = new URLSearchParams(window.location.search);
-        var name = params.getAll("name");
-        var lastName = params.getAll("lastName");
-        // set name
-        document.getElementById("name").innerHTML = name;
-        document.getElementById("lastName").innerHTML = lastName;
+
+        var email = params.get('email');
+        var fullname = params.get('fullname');
+        var contactno = params.get('contactno');
+        var postcode = params.get('postcode');
+        var suburb = params.get('suburb');
+        var service = params.get('service');
+        var units = params.get('units');
+
 
         // send email
-        document.getElementById("send_email").addEventListener("click", function() {
-           // send email with name and lastName with html style
+        document.getElementById("send_email").addEventListener("click", function (e) {
+            e.preventDefault()
 
-           window.location.href = "mailto:?subject=Hello&body=Hello " + name + " " + lastName + "!";
 
+            // // get form data from html
+            var I_front_evaporator_coils = document.getElementById("I_front_evaporator_coils").checked;
+            var I_behind_evaporator_coils = document.getElementById("I_behind_evaporator_coils").checked;
+            var I_drain_pan_channel = document.getElementById("I_drain_pan_channel").checked;
+            var I_fan_cavity = document.getElementById("I_fan_cavity").checked;
+
+            // II
+            var II_front_evaporator_coils = document.getElementById("II_front_evaporator_coils").checked;
+            var II_behind_evaporator_coils = document.getElementById("II_behind_evaporator_coils").checked;
+            var II_drain_pan_channel = document.getElementById("II_drain_pan_channel").checked;
+            var II_barrell_fan = document.getElementById("II_barrell_fan").checked;
+            var II_fan_cavity = document.getElementById("II_fan_cavity").checked;
+
+            // III
+            var III_outer_housing_covers = document.getElementById("III_outer_housing_covers").checked;
+            var III_filters = document.getElementById("III_filters").checked;
+            var III_swing_s = document.getElementById("III_swing_s").checked;
+            var III_evaporator_coils_front_and_back = document.getElementById("III_evaporator_coils_front_and_back").checked;
+            var III_drain_pan_channel = document.getElementById("III_drain_pan_channel").checked;
+            var III_drainpipe = document.getElementById("III_drainpipe").checked;
+            var III_barrell_fan = document.getElementById("III_barrell_fan").checked;
+            var III_fan_cavity = document.getElementById("III_fan_cavity").checked;
+
+
+            var date = document.getElementById("date").value;
+            var time = document.getElementById("time").value;
+            var address = document.getElementById("address").value;
+
+            // prepare email
+            // var email = "me@g.co";
+            var subject = "Service Request";
+            var body = "";
+
+            // create body
+
+            body += "Service inquiry form"+ "%0D%0A";
+            body += "%0D%0A";
+            body += "%0D%0A";
+            body += `Email: ` + email + `%0D%0A`;
+            body += `Full Name: ` + fullname + `%0D%0A`;
+            body += `Contact Number: ` + contactno + `%0D%0A`;
+            body += `Postcode: ` + postcode + `%0D%0A`;
+            body += `Suburb: ` + suburb + `%0D%0A`;
+            body += `Service: ` + service + `%0D%0A`;
+            body += `Units: ` + units + `%0D%0A`;
+            body += "%0D%0A";
+            body += "Pressurised Hot Water Deep Clean and Rinse."+ "%0D%0A";
+            body += "%0D%0A";
+            body += `Front Evaporator Coils: ` + I_front_evaporator_coils + `%0D%0A`;
+            body += `Behind Evaporator Coils: ` + I_behind_evaporator_coils + `%0D%0A`;
+            body += `Drain Pan Channel: ` + I_drain_pan_channel + `%0D%0A`;
+            body += `Fan Cavity: ` + I_fan_cavity + `%0D%0A`;
+            body += "%0D%0A";
+            body += "%0D%0A";
+            body += "130 psi Jet Steam (170 °C) Sanitisation"+ "%0D%0A";
+            body += "%0D%0A";
+            body += `Front Evaporator Coils: ` + II_front_evaporator_coils + `%0D%0A`;
+            body += `Behind Evaporator Coils: ` + II_behind_evaporator_coils + `%0D%0A`;
+            body += `Drain Pan Channel: ` + II_drain_pan_channel + `%0D%0A`;
+            body += `Barrell Fan: ` + II_barrell_fan + `%0D%0A`;
+            body += `Fan Cavity: ` + II_fan_cavity + `%0D%0A`;
+            body += "%0D%0A";
+            body += "%0D%0A";
+            body += "Deep Clean and Pressurised Rinse"+ "%0D%0A";
+            body += "%0D%0A";
+            body += `Outer Housing Covers: ` + III_outer_housing_covers + `%0D%0A`;
+            body += `Filters: ` + III_filters + `%0D%0A`;
+            body += `Swing S: ` + III_swing_s + `%0D%0A`;
+            body += `Evaporator Coils Front and Back: ` + III_evaporator_coils_front_and_back + `%0D%0A`;
+            body += `Drain Pan Channel: ` + III_drain_pan_channel + `%0D%0A`;
+            body += `Drainpipe: ` + III_drainpipe + `%0D%0A`;
+            body += `Barrell Fan: ` + III_barrell_fan + `%0D%0A`;
+            body += `Fan Cavity: ` + III_fan_cavity + `%0D%0A`;
+            body += "%0D%0A";
+            body += "Date: " + date + `%0D%0A`;
+            body += "Time: " + time + `%0D%0A`;
+            body += "Address: " + address + `%0D%0A`;
+
+
+
+
+            // body += "<table>";
+            // body += "<tr><td>Full Name</td><td>" + fullname + "</td></tr>";
+            // body += "<tr><td>Contact Number</td><td>" + contactno + "</td></tr>";
+            // body += "<tr><td>Postcode</td><td>" + postcode + "</td></tr>";
+            // body += "<tr><td>Suburb</td><td>" + suburb + "</td></tr>";
+            // body += "<tr><td>Service</td><td>" + service + "</td></tr>";
+            // body += "<tr><td>Units</td><td>" + units + "</td></tr>";
+            // body += "<tr><td>Date</td><td>" + date + "</td></tr>";
+            // body += "<tr><td>Time</td><td>" + time + "</td></tr>";
+            // body += "<tr><td>Address</td><td>" + address + "</td></tr>";
+            //
+            // body += "<tr><td>I</td><td></td></tr>";
+            // body += "<tr><td>Front Evaporator Coils</td><td>" + I_front_evaporator_coils + "</td></tr>";
+            // body += "<tr><td>Behind Evaporator Coils</td><td>" + I_behind_evaporator_coils + "</td></tr>";
+            // body += "<tr><td>Drain Pan Channel</td><td>" + I_drain_pan_channel + "</td></tr>";
+            // body += "<tr><td>Fan Cavity</td><td>" + I_fan_cavity + "</td></tr>";
+            //
+            // body += "<tr><td>II</td><td></td></tr>";
+            // body += "<tr><td>Front Evaporator Coils</td><td>" + II_front_evaporator_coils + "</td></tr>";
+            // body += "<tr><td>Behind Evaporator Coils</td><td>" + II_behind_evaporator_coils + "</td></tr>";
+            // body += "<tr><td>Drain Pan Channel</td><td>" + II_drain_pan_channel + "</td></tr>";
+            // body += "<tr><td>Barrel Fan</td><td>" + II_barrell_fan + "</td></tr>";
+            // body += "<tr><td>Fan Cavity</td><td>" + II_fan_cavity + "</td></tr>";
+            //
+            // body += "<tr><td>III</td><td></td></tr>";
+            // body += "<tr><td>Outer Housing Covers</td><td>" + III_outer_housing_covers + "</td></tr>";
+            // body += "<tr><td>Filters</td><td>" + III_filters + "</td></tr>";
+            // body += "<tr><td>Swing S</td><td>" + III_swing_s + "</td></tr>";
+            // body += "<tr><td>Front Evaporator Coils</td><td>" + III_evaporator_coils_front_and_back + "</td></tr>";
+            // body += "<tr><td>Drain Pan Channel</td><td>" + III_drain_pan_channel + "</td></tr>";
+            // body += "<tr><td>Drainpipe</td><td>" + III_drainpipe + "</td></tr>";
+            // body += "<tr><td>Barrel Fan</td><td>" + III_barrell_fan + "</td></tr>";
+            // body += "<tr><td>Fan Cavity</td><td>" + III_fan_cavity + "</td></tr>";
+            //
+            // body += "</table>";
+
+
+            // set email content here
+
+            // send email
+            window.location.href = "mailto:" + "me@g.co" + "?subject=" + subject + "&body=" + body;
         });
+
 
     });
 </script>
