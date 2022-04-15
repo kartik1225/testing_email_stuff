@@ -1,0 +1,26 @@
+<h1>Name</h1>
+<p id="name"></p>
+<p id="lastName"></p>
+
+<button id="send_email">Send email</button>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // read query params
+        var params = new URLSearchParams(window.location.search);
+        var name = params.getAll("name");
+        var lastName = params.getAll("lastName");
+        // set name
+        document.getElementById("name").innerHTML = name;
+        document.getElementById("lastName").innerHTML = lastName;
+
+        // send email
+        document.getElementById("send_email").addEventListener("click", function() {
+           // send email with name and lastName with html style
+
+           window.location.href = "mailto:?subject=Hello&body=Hello " + name + " " + lastName + "!";
+
+        });
+
+    });
+</script>
+
